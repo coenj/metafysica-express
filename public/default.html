@@ -39,24 +39,27 @@
 
 </html>
 <script>
-    document.querySelectorAll("li").addEventListener("click", function (event) {
-        var menuItem=event.target.innerText
-        var url = "http://localhost:3000/"+menuItem
-        
-        console.log(menuItem)
-        fetch(url).then(function (response) {
-            // transform response object to JSON
-            return response.json()
-        }).then(function (response) {
+    elementsArray = document.querySelectorAll('li');
+    elementsArray.forEach(function (elem) {
+        elem.addEventListener("click", function (event) {
+            
+            var menuItem = event.target.innerText
+            var url = "http://localhost:3000/" + menuItem
 
-            // get the response pageviews from wikipedia and output them to the DOM
-            console.log(response)
-            document.getElementById("page").innerHTML = response[0].Content
-            document.getElementById("heading").innerHTML = response[0].Heading
-            return "OK"
+            console.log(menuItem)
+            fetch(url).then(function (response) {
+                // transform response object to JSON
+                return response.json()
+            }).then(function (response) {
 
-        })
+                // get the response pageviews from wikipedia and output them to the DOM
+                console.log(response)
+                document.getElementById("page").innerHTML = response[0].Content
+                document.getElementById("heading").innerHTML = response[0].Heading
+                return "OK"
 
-    })
+            })
+        });
+    });
 
 </script>
