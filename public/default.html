@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <title>Metafysische filosofie</title>
+
+
+</head>
+<html>
+
+<body>
+
+
+    <nav>
+        <ul>
+            <a href=#russel>
+                <li id="Russel">Russel</li>
+            </a>
+            <a href=#bergson>
+                <li id="Bergson">Bergson</li>
+            </a>
+            <a href=#harman>
+                <li id="Harman">Harman</li>
+            </a>
+            <li class="brand">Filosofische metafysica</li>
+        </ul>
+    </nav>
+    <div id="heading"></div>
+    <div id="page">
+
+        <div class="page-content">
+
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    document.querySelectorAll("li").addEventListener("click", function (event) {
+        var menuItem=event.target.innerText
+        var url = "http://localhost:3000/"+menuItem
+        
+        console.log(menuItem)
+        fetch(url).then(function (response) {
+            // transform response object to JSON
+            return response.json()
+        }).then(function (response) {
+
+            // get the response pageviews from wikipedia and output them to the DOM
+            console.log(response)
+            document.getElementById("page").innerHTML = response[0].Content
+            document.getElementById("heading").innerHTML = response[0].Heading
+            return "OK"
+
+        })
+
+    })
+
+</script>
