@@ -112,3 +112,49 @@ Het praktische gebruiken van het gerei verklaart de dingen niet, ook wanneer wij
 Het ding dat niet gereduceerd is tot gerei-perspectieven noemt Harman substantie. Het functionele gaat niet vooraf aan het ding, de substantie van het ding gaat aan het ding vooraf. Objecten zijn meer dan de gebruiksmogelijkheden die wij zien.
 Het gaat Harman niet om het verschil tussen het gerei bewust of onbewust te gebruiken. Dat is te antropocentrisch. Dit beschrijft alleen de relatie tussen de menselijke geest en de omgeving. Volgens Harman moet de filosofie kijken tussen de relaties tussen alle substanties. Alle substanties zijn even raadselachtig en staan in relatie met elkaar.  Wat een object is weet Harman niet, maar hij denkt dat objecten onuitputtelijke niet uitgebrachte kwaliteiten bezitten. Deze kwaliteit kennen wij nog niet, substantie is de ongekende realiteit van dingen. Substantie kunnen volgens Harman  ook bestaan uit ideeën.
 Substanties zijn autonoom en bestaan onafhankelijk van relaties. Twee substanties kunnen nooit met elkaar in contact staan. Zij kunnen wel interacteren door vicarious causes (bemiddelde oorzaken). Als alle objecten met elkaar interacteren dan betekent dit dat alle dingen elkaar kunnen interpreteren: Harmans filosofie leidt hiermee tot pan-hermeneutiek.','images/bergson.jpg');
+
+UPDATE Postings 
+    SET Content='<section class="col-md-12 col-lg-8">
+
+            <h1 id=harman>Harman</h1>
+
+            <p>Volgens Heidegger zijn wij in de wereld en gebruiken wij gerei als iets vanzelfsprekends. Wij zijn ons niet bewust
+              van het gerei zolang het doet waarvoor wij het willen gebruiken. Er is geen object -subject relatie tussen
+              ons en het gerei, er is geen reflectieve afstand. Wij leven normaalgesproken in de wereld zonder afstand te
+              nemen van het object, wij gaan er vanzelfsprekend mee om zonder kritisch te denken. Als het gerei hapert, stukgaat
+              of storingen optreden worden wij ons bewust van het gerei als ding.</p>
+            <p>Wij zien alles als een gerei, iets dat bedoeld is &ldquo;om te&rdquo;, dus om ons te dienen. De vloer is om op
+              te staan, de lucht is om in te ademen. Harman wijst erop dat het gerei van Heidegger veel meer is dan hamers
+              en treinperrons, de gerei-analyse kan op alle substanties worden toegepast, niet alleen op wat wij normaal
+              als dingen zien maar ook op idee&euml;n of de vloer.</p>
+            <p>Wij worden ons pas bewust van het gerei als het stukgaat. Op dit negatieve moment ontstaat het bewustzijn bij
+              Heidegger. Pas als iets het niet meer doet dan onthult het zich aan ons. Volgens Harman zien wij dan maar een
+              beperkt aantal perspectieven van het ding ook als het stuk gaat. Wij zien dingen alleen maar &ldquo;om te&rdquo;,
+              wij zien het alleen als iets dat een functie heeft voor ons. En ook als het stuk gaat, dan zien wij datgene
+              dat wij missen, het apparaat dat niet in staat is om X te doen. Hierdoor zien wij nog steeds maar een klein
+              deel van het ding, wij ervaren het alleen door de bril van <em>om te</em>. En voor ieder mens en dier heeft
+              het ding een andere functie en een andere
+              <em>om te</em>. Als het gerei stuk gaat en wij worden ons bewust van het ding dan worden wij ons alleen van
+              een klein deel van het ding bewust. Wij worden ons dan bewust van het deel dat wij missen voor&nbsp; de functie
+              die het vervult, het <em>om te</em>. Op het moment dat wij ons bewust worden van iets, als wij theoretiseren
+              dan nog doen wij dat vanuit de praktijk. Onze theorie is gebaseerd op dat wij in het gerei iets missen om X
+              te doen.</p>
+            <p>Het praktische gebruiken van het gerei verklaart de dingen niet, ook wanneer wij gaan denken doordat de dingen
+              stukgaan verklaart de dingen niet. Er is realiteit nodig om praktijk en theorie van de dingen mogelijk te maken.
+              Het ding kan niet gereduceerd worden tot &nbsp;de relaties en kwaliteiten die ontstaan in praktijkgebruik en
+              theorie. Deze relaties en kwaliteiten zijn perspectieven die gebaseerd zijn op het gebruik van het ding.</p>
+            <p>Het ding dat niet gereduceerd is tot gerei-perspectieven noemt Harman substantie. Het functionele gaat niet vooraf
+              aan het ding, de substantie van het ding gaat aan het ding vooraf. Objecten zijn meer dan de gebruiksmogelijkheden
+              die wij zien.</p>
+            <p>Het gaat Harman niet om het verschil tussen het gerei bewust of onbewust te gebruiken. Dat is te antropocentrisch.
+              Dit beschrijft alleen de relatie tussen de menselijke geest en de omgeving. Volgens Harman moet de filosofie
+              kijken tussen de relaties tussen alle substanties. Alle substanties zijn even raadselachtig en staan in relatie
+              met elkaar.&nbsp; Wat een object is weet Harman niet, maar hij denkt dat objecten onuitputtelijke niet uitgebrachte
+              kwaliteiten bezitten. Deze kwaliteit kennen wij nog niet, substantie is de ongekende realiteit van dingen.
+              Substantie kunnen volgens Harman&nbsp; ook bestaan uit idee&euml;n.</p>
+            <p>Substanties zijn autonoom en bestaan onafhankelijk van relaties. Twee substanties kunnen nooit met elkaar in
+              contact staan. Zij kunnen wel interacteren door vicarious causes (bemiddelde oorzaken). Als alle objecten met
+              elkaar interacteren dan betekent dit dat alle dingen elkaar kunnen interpreteren: Harman&rsquo;s filosofie
+              leidt hiermee tot pan-hermeneutiek.</p>
+          </section>'
+          WHERE Title='Harman'
