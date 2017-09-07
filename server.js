@@ -19,7 +19,7 @@ app.get(`/postings`, function (request, response) {
             response.send(rows);
         })
         ;
-    console.log("This function will return Russel");
+    console.log("This function will return all posts");
 });
 
 app.get(`/postings/:title`, function (request, response) {
@@ -34,7 +34,12 @@ app.get(`/postings/:title`, function (request, response) {
 
 
 app.get('/bergson', function (request, response) {
-    response.send("This function will return Bergson");
+    db.all("SELECT * FROM Postings WHERE Title='Bergson'",
+        function (err, rows) {
+            console.log("db contains" + rows);
+            response.send(rows);
+        })
+        ;
 });
 
 app.get('/harman', function (request, response) {
@@ -49,7 +54,7 @@ app.get('/harman', function (request, response) {
 
 
 app.get('/russel', function (request, response) {
-    db.all("SELECT Heading FROM Postings WHERE Title='Russel'",
+    db.all("SELECT * FROM Postings WHERE Title='Russel'",
         function (err, rows) {
             console.log("db contains" + rows);
             response.send(rows);

@@ -52,7 +52,7 @@
                 return response.json()
             }).then(function (response) {
 
-                // get the response pageviews from wikipedia and output them to the DOM
+                // get the response from express db and output them to the DOM
                 console.log(response)
                 document.getElementById("page").innerHTML = response[0].Content
                 document.getElementById("heading").innerHTML = response[0].Heading
