@@ -28,13 +28,16 @@
             <li class="brand">Filosofische metafysica</li>
         </ul>
     </nav>
-    <div id="heading"></div>
-    <div id="page">
 
-        <div class="page-content">
+    <div class="page">
+        <div id="content" />
 
-        </div>
+    
+    </section>
+    </article>
+</div>
     </div>
+
 </body>
 
 </html>
@@ -42,7 +45,7 @@
     elementsArray = document.querySelectorAll('li');
     elementsArray.forEach(function (elem) {
         elem.addEventListener("click", function (event) {
-            
+
             var menuItem = event.target.innerText
             var url = "http://localhost:3000/" + menuItem
 
@@ -54,8 +57,8 @@
 
                 // get the response from express db and output them to the DOM
                 console.log(response)
-                document.getElementById("page").innerHTML = response[0].Content
-                document.getElementById("heading").innerHTML = response[0].Heading
+                document.getElementById("content").innerHTML = response[0].Content
+                //document.getElementById("heading").innerHTML = response[0].Heading
                 return "OK"
 
             })
