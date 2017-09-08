@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="public/css/stylesheet.css" rel="stylesheet">
     <title>Metafysische filosofie</title>
 
 
@@ -47,7 +47,7 @@
         elem.addEventListener("click", function (event) {
 
             var menuItem = event.target.innerText
-            var url = "./" + menuItem
+            var url = "https://nine-umbrella.glitch.me/" + menuItem
 
             console.log(menuItem)
             fetch(url).then(function (response) {

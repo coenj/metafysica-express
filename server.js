@@ -5,7 +5,8 @@ app.use(cors())
 var port = 3000;
 var sqlite3 = require('sqlite3');
 var db = new sqlite3.Database('Metafysica.db');
-
+// http://expressjs.com/en/starter/static-files.html
+app.use(express.static('public'));
 
 app.listen(port, function () {
     console.log("Server is listening on port 3000");
@@ -66,4 +67,5 @@ app.get('/russel', function (request, response) {
 app.get('/about', function (request, response) {
     response.send("This function will return about me");
 });
+
 
